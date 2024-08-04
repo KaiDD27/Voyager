@@ -43,7 +43,7 @@ class Voyager:
         critic_agent_mode: str = "auto",
         skill_manager_model_name: str = "gpt-4o-mini-2024-07-18",
         skill_manager_temperature: float = 0,
-        skill_manager_retrieval_top_k: int = 5,
+        skill_manager_retrieval_top_k: int = 3,
         openai_api_request_timeout: int = 240,
         ckpt_dir: str = "ckpt",
         skill_library_dir: str = None,
