@@ -27,7 +27,7 @@ app.post("/start", (req, res) => {
     bot = null;
     console.log(req.body);
     bot = mineflayer.createBot({
-        host: "localhost", // minecraft server ip
+        host: "192.168.50.226", // minecraft server ip
         port: req.body.port, // minecraft server port
         username: "bot",
         disableChatSigning: true,
